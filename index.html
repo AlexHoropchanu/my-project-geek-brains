@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/buttonTop.css">
+  </head>
+
+  <body>
+    <div id="page-preloader" class="preloader">
+      <div class="preloader__loader"></div>
+    </div>
+       <header class="header">
+      <div class="container headerInside">
+        <div class="logo">BRAN<span>D</span></div>
+        <form class="searchWrap">
+          <div class="searchBrowse">
+            Browse <i class="fas fa-caret-down"></i>
+          </div>
+          <input placeholder="Search for Item..." type="text" />
+          <button>
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <a href="checkout.html" class="headerCart"
+          ><img src="images/cart.png" alt="#"
+        /></a>
+        <button class="accountBtn">
+          My Account
+          <i class="fas fa-caret-down"></i>
+        </button>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white container">
+        <button class="navbar-toggler ml-auto mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon container"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-auto">
+            <li class="nav-item wow fadeInDown" data-wow-duration="0.2s" data-wow-delay="1s">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item wow fadeInDown" data-wow-duration="0.2s" data-wow-delay="1.3s">
+                <a href="#" class="nav-link">Man</a>
+            </li>
+            <li class="nav-item wow fadeInDown" data-wow-duration="0.2s" data-wow-delay="1.5s">
+                <a href="#" class="nav-link">Wooman</a>
+            </li>
+            <li class="nav-item wow fadeInDown" data-wow-duration="0.2s" data-wow-delay="1.7s">
+                <a href="#" class="nav-link">Kids</a>
+            </li>
+            <li class="nav-item wow fadeInDown" data-wow-duration="0.2s" data-wow-delay="1.9">
+                <a href="#" class="nav-link">Accoseriese</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link wow fadeInDown" data-wow-duration="0.2s" data-wow-delay="2.1s">Featured</a>
+            </li>
+            <li class="nav-item wow fadeInDown" data-wow-duration="0.2s" data-wow-delay="2.3s">
+                <a href="#" class="nav-link">Hot Deals</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+    <section class="topBannerWrap">
+      <div class="container topBannerContent">
+        <div class="topBannerSign  wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="2.3s">
+          <h1>THE BRAND</h1>
+          <h2>OF LUXERIOUS <span>FASHION</span></h2>
+        </div>
+      </div>
+    </section>
+     <div class="container offers"><!-- Сдесь использовал гриды -->
+      <div class="offer-1 wow fadeInLeft">
+        <img src="images/offer1.jpg" alt="" />
+        <div class="label">
+          <div class="labelTop">hot deal</div>
+          <div class="labelBottom">for men</div>
+        </div>
+      </div>
+      <div class="offer-2  wow fadeInLeft">
+        <img src="images/offer2.jpg" alt="" />
+        <div class="label">
+          <div class="labelTop">luxirous & trendy</div>
+          <div class="labelBottom">accesories</div>
+        </div>
+      </div>
+      <div class="offer-3  wow fadeInRight">
+        <img src="images/offer3.jpg" alt="" />
+        <div class="label">
+          <div class="labelTop">30% offer</div>
+          <div class="labelBottom">women</div>
+        </div>
+      </div>
+      <div class="offer-4 wow fadeInRight">
+        <img src="images/offer4.jpg" alt="" />
+        <div class="label">
+          <div class="labelTop">new arrivals</div>
+          <div class="labelBottom">for kids</div>
+        </div>
+      </div>
+    </div>
+    <section class="popular container">
+      <h3 class="title__popular">Fetured Items</h3>
+      <p class="text__popular">
+        Shop for items based on what we featured in this week
+      </p>
+      <div class="popular__items__wrapper">
+        <ul class="popular__items"> <!-- Сдесь использовал гриды -->
+          <li class="popular__items__list popular__card-1 wow fadeInDown">
+            <a href="#">
+              <div class="popular__card">
+                <img src="images/popular__item1.png" alt="popular__item" />
+                <div class="popular__hover">
+                  <div>
+                    <img src="images/cartWhite.png" alt="cart" />
+                    Add to Cart
+                  </div>
+                </div>
+                <h4 class="title__popular__item">Mango People T-shirt</h4>
+                <p class="price__popular__item">$52.00</p>
+              </div>
+            </a>
+          </li>
+          <li class="popular__items__list popular__card-2 wow fadeInDown">
+            <a href="#">
+              <div class="popular__card">
+                <img src="images/popular__item2.png" alt="popular__item" />
+                <div class="popular__hover">
+                  <div>
+                    <img src="images/cartWhite.png" alt="cart" />
+                    Add to Cart
+                  </div>
+                </div>
+                <h4 class="title__popular__item">Mango People T-shirt</h4>
+                <p class="price__popular__item">$52.00</p>
+              </div>
+            </a>
+          </li>
+          <li class="popular__items__list popular__card-3 wow fadeInDown">
+            <a href="#">
+              <div class="popular__card">
+                <img src="images/popular__item3.png" alt="popular__item" />
+                <div class="popular__hover">
+                  <div>
+                    <img src="images/cartWhite.png" alt="cart" />
+                    Add to Cart
+                  </div>
+                </div>
+                <h4 class="title__popular__item">Mango People T-shirt</h4>
+                <p class="price__popular__item">$52.00</p>
+              </div>
+            </a>
+          </li>
+          <li class="popular__items__list popular__card-4 wow fadeInDown">
+            <a href="#">
+              <div class="popular__card">
+                <img src="images/popular__item4.png" alt="popular__item" />
+                <div class="popular__hover">
+                  <div>
+                    <img src="images/cartWhite.png" alt="cart" />
+                    Add to Cart
+                  </div>
+                </div>
+                <h4 class="title__popular__item">Mango People T-shirt</h4>
+                <p class="price__popular__item">$52.00</p>
+              </div>
+            </a>
+          </li>     
+          <li class="popular__items__list popular__card-5 wow fadeInUp">
+            <a href="#">
+              <div class="popular__card">
+                <img src="images/popular__item5.png" alt="popular__item" />
+                <div class="popular__hover">
+                  <div>
+                    <img src="images/cartWhite.png" alt="cart" />
+                    Add to Cart
+                  </div>
+                </div>
+                <h4 class="title__popular__item">Mango People T-shirt</h4>
+                <p class="price__popular__item">$52.00</p>
+              </div>
+            </a>
+          </li>
+          <li class="popular__items__list popular__card-6 wow fadeInUp">
+            <a href="#">
+              <div class="popular__card">
+                <img src="images/popular__item6.png" alt="popular__item" />
+                <div class="popular__hover">
+                  <div>
+                    <img src="images/cartWhite.png" alt="cart" />
+                    Add to Cart
+                  </div>
+                </div>
+                <h4 class="title__popular__item">Mango People T-shirt</h4>
+                <p class="price__popular__item">$52.00</p>
+              </div>
+            </a>
+          </li>
+          <li class="popular__items__list popular__card-7 wow fadeInUp">
+            <a href="#">
+              <div class="popular__card">
+                <img src="images/popular__item7.png" alt="popular__item" />
+                <div class="popular__hover">
+                  <div>
+                    <img src="images/cartWhite.png" alt="cart" />
+                    Add to Cart
+                  </div>
+                </div>
+
+                <h4 class="title__popular__item">Mango People T-shirt</h4>
+                <p class="price__popular__item">$52.00</p>
+              </div>
+            </a>
+          </li>
+          <li class="popular__items__list popular__card-8 wow fadeInUp">
+            <a href="#">
+              <div class="popular__card">
+                <img src="images/popular__item8.png" alt="popular__item" />
+                <div class="popular__hover">
+                  <div>
+                    <img src="images/cartWhite.png" alt="cart" />
+                    Add to Cart
+                  </div>
+                </div>
+                <h4 class="title__popular__item">Mango People T-shirt</h4>
+                <p class="price__popular__item">$52.00</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="button__popular"
+        >Browse All Product <img src="images/arrow_right.png" alt="arrow"
+      /></a>
+    </section>
+    <section class="sale container">
+      <div class="sale__offer wow fadeInLeft">
+        <h2 class="sale__offer__title">30% <span>OFFER</span></h2>
+        <h3 class="sale__offer__small-title">FOR WOMEN</h3>
+      </div>
+      <div class="sale__advantages wow fadeInRight">
+        <div class="advantages__wrapper">
+          <img src="images/bus_sale.svg" alt="#" />
+          <div class="advantages__wrapper__about">
+            <h3 class="sale__advantages__title">Free Delivery</h3>
+            <p class="sale__advantages__text">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </div>
+        </div>
+        <div class="advantages__wrapper">
+          <img src="images/procent_sale.svg" alt="#" />
+          <div class="advantages__wrapper__about">
+            <h3 class="sale__advantages__title">Sales & discounts</h3>
+            <p class="sale__advantages__text">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </div>
+        </div>
+        <div class="advantages__wrapper">
+          <img src="images/crown_sale.svg" alt="#" />
+          <div class="advantages__wrapper__about">
+            <h3 class="sale__advantages__title">Quality assurance</h3>
+            <p class="sale__advantages__text">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="subscribe__wrapper container">
+        <div class="subscribe__left">
+          <img src="images/ava.png" alt="#" />
+          <div class="subscribe__left__text">
+            <p class="subscribe__left__review">
+              “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+              pulvinar purus condimentum a. Aliquam condimentum mattis neque sed
+              pretium”
+            </p>
+            <p class="subscribe__left__name">
+              Bin Burhan <br />
+              <span>Dhaka, Bd</span>
+            </p>
+            <div class="subscribe__left__border">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="subscribe__right">
+          <h3 class="subscribe__right__title">Subscribe</h3>
+          <p class="subscribe__right__text">FOR OUR NEWLETTER AND PROMOTION</p>
+          <form action="#">
+            <input type="text" placeholder="Enter Your Email" />
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer__wrapper container">
+        <div class="footer__brand wow fadeInDown" data-wow-duration="0.5s">
+          <div class="logo footer__logo">BRAN<span>D</span></div>
+          <div class="footer__brand__text">
+            Objectively transition extensive data rather than cross functional
+            solutions. Monotonectally syndicate multidisciplinary materials
+            before go forward benefits. Intrinsicly syndicate an expanded array
+            of processes and cross-unit partnerships.
+          </div>
+          <div class="footer__brand__text">
+            Efficiently plagiarize 24/365 action items and focused
+            infomediaries. Distinctively seize superior initiatives for wireless
+            technologies. Dynamically optimize.
+          </div>
+        </div>
+        <div class="footer__company wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
+          <h3 class="footer__title">COMPANY</h3>
+          <ul class="footer__list">
+            <li>
+              <a href="#" class="footer__link">Home</a>
+            </li>
+            <li><a href="#" class="footer__link">Shop</a></li>
+            <li><a href="#" class="footer__link">About</a></li>
+            <li><a href="#" class="footer__link">How it Works</a></li>
+            <li><a href="#" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__information wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="1s">
+          <h3 class="footer__title">INFORMATION</h3>
+          <ul class="footer__list">
+            <li><a href="#" class="footer__link">Tearms & Condition</a></li>
+            <li><a href="#" class="footer__link">Privacy Policy</a></li>
+            <li><a href="#" class="footer__link">How to Buy</a></li>
+            <li><a href="#" class="footer__link">How to Sell</a></li>
+            <li><a href="#" class="footer__link">Promotion </a></li>
+          </ul>
+        </div>
+        <div class="footer__category wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="1.5s">
+          <h3 class="footer__title">Shop Category</h3>
+          <ul class="footer__list">
+            <li><a href="#" class="footer__link">Men</a></li>
+            <li><a href="#" class="footer__link">Wooman</a></li>
+            <li><a href="#" class="footer__link">Child</a></li>
+            <li><a href="#" class="footer__link">Apparei</a></li>
+            <li><a href="#" class="footer__link">Brows All</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="copyrights">
+      <div class="container copyrightsWrap">
+        <div class="copyrights__left">
+          &copy; 2017 Brand All Rights Reserved.
+        </div>
+        <div class="copyrights__right">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-up">
+      <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
+        <path class="scroll-up__svg-path" d="
+                m24,0
+                a24,24 0 0, 1 0,48
+                a24,24 0 0, 1 0,-48
+            " />
+      </svg>
+    </div>
+    <script src="js/preloader.js"></script>
+    <script src="js/scrollTop.js"></script>
+     <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>

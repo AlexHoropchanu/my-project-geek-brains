@@ -1,0 +1,224 @@
+.treading {
+    padding-top: 60px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+}
+
+.card:nth-child(n+2) {
+    margin-top: 30px;
+}
+
+.card-header {
+    border-left: 5px solid #ef5b70;
+    border-bottom: 1px solid #ebebeb;
+    border-top: none;
+    border-right: none;
+}
+
+.btn-link {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ef5b70;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    background: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.btn {
+    border: none;
+    border-radius: none;
+
+}
+
+.card-body {
+    border: none;
+
+    li {
+        margin-top: 22px;
+        text-align: left;
+
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 33px;
+            font-weight: 400;
+            color: #6f6e6e;
+        }
+    }
+
+    li:first-child {
+        margin-top: 0px;
+    }
+
+    li:last-child {
+        margin-bottom: 0;
+        padding: 0;
+    }
+}
+
+.trend__title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6f6e6e;
+}
+
+.trend__nav {
+    width: 176px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__link {
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #6f6e6e;
+    }
+}
+
+.trend__nav-size {
+    max-width: 233px;
+    display: flex;
+    flex-wrap: wrap;
+     @media(max-width:507px) {
+         flex-direction: column ;
+     }
+
+    li:nth-child(n+2) {
+        margin-left: 23px;
+        @media(max-width:507px){
+            margin-left: 0;
+            text-align: left;
+        }
+    }
+
+    li:nth-child(5) {
+        margin-left: 0;
+    }
+
+    label {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #6f6e6e;
+
+        input {
+            margin-right: 10px;
+            background-color: #ffffff;
+        }
+    }
+}
+
+.trend__price {
+    input {
+        width: inherit;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        margin-top: 10px;
+        color: #6f6e6e;
+    }
+}
+
+.sorter {
+    padding: 10px;
+    background-color: #f3f3f3;
+    display: flex;
+    align-content: center;
+    margin-top: 40px;
+    width: 100%;
+
+    .sorterUnit {
+        border: 1px solid #ebebeb;
+        border-radius: 4px;
+        background: #ffffff;
+        height: 30px;
+        display: flex;
+
+        &:first-child {
+            margin-right: 10px;
+        }
+
+        label {
+            margin-bottom: auto;
+            border-right: 1px solid #ebebeb;
+        }
+
+        label,
+        select {
+            color: #6f6e6e;
+            font-size: 14px;
+            font-weight: 400;
+            height: 100%;
+            line-height: 30px;
+            line-height: 27px;
+            padding-left: 10px;
+            padding-right: 10px;
+            display: block;
+        }
+
+        select {
+            border: none;
+            outline: none;
+            padding-bottom: 2px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-size: 9px;
+            padding-right: 20px;
+        }
+    }
+}
+
+.productsWrap {
+    margin-top: 50px;
+
+    >div[class^="col"]:nth-child(n+4) {
+        margin-top: 40px;
+        @media(max-width: 991px){
+            margin-top: 0;
+        }
+    }
+
+    .productUnit {
+        overflow: hidden;
+        text-align: center;
+
+        &:hover {
+            box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+        }
+
+        .productName {
+            color: #6f6e6e;
+            font-size: 13px;
+            text-transform: uppercase;
+            margin: 15px;
+        }
+
+        .productPrice {
+            margin: 15px;
+            color: #ef5b70;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+}

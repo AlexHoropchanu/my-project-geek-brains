@@ -1,0 +1,29 @@
+.product-details{
+    display: grid;
+    margin-top: 90px;
+    &__list{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eaeaea;
+        display: grid;
+        grid-template-columns: 5fr repeat(5, 1fr);
+        li:nth-child(n+2){
+            justify-self: end;
+            font-size: 13px;
+            line-height: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.015em;
+            color: #222222;
+        }
+    }
+}
+.product-details__wrapper{
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    ul{
+         display: grid;
+         grid-template-columns: 5fr repeat(5, 1fr);
+    }
+}
+
